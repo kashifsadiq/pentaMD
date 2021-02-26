@@ -1,16 +1,16 @@
 # Pentasaccharide MD Simulation Repository
 
 ########################################################################################################
-# Correspondence: S. Kashif Sadiq (kashif.sadiq@embl.de)
-# Heidelberg Institute for Theoretical Studies, HITS gGmbH
-# and
-# European Moelcular Biology Laboratory
-# 2021
+ Correspondence: S. Kashif Sadiq (kashif.sadiq@embl.de)
+ Heidelberg Institute for Theoretical Studies, HITS gGmbH
+ and
+ European Moelcular Biology Laboratory
+ 2021
 ########################################################################################################
 Last revised: 26/02/2021
 ########################################################################################################
 
-# This repository contains MD simulation input and post-production analysis data for the manuscript:
+ This repository contains MD simulation input and post-production analysis data for the manuscript:
 
 Balogh, Gabor; Gyöngyösi, Tamás; Timári, István; Herczeg, Mihály; Borbás, Anikó; Sadiq, S. Kashif; Fehér, Krisztina; Kövér, Katalin, Conformational Analysis of Heparin-Analogue Pentasaccharides by Nuclear Magnetic Resonance Spectroscopy and Molecular Dynamics Simulations (2021), Under review.
 
