@@ -2,26 +2,36 @@
 
 ########################################################################################################
  Correspondence: S. Kashif Sadiq (kashif.sadiq@embl.de)
- Heidelberg Institute for Theoretical Studies, HITS gGmbH
- and
- European Moelcular Biology Laboratory
- 2021
+ Affiliation: 1. Heidelberg Institute for Theoretical Studies, HITS gGmbH
+ 2. European Moelcular Biology Laboratory
 ########################################################################################################
-Last revised: 26/02/2021
+Last revised: 27/02/2021
 ########################################################################################################
 
- This repository contains MD simulation input and post-production analysis data for the manuscript:
+This repository contains MD simulation input and post-production analysis data for the manuscript:
 
 Balogh, Gabor; Gyöngyösi, Tamás; Timári, István; Herczeg, Mihály; Borbás, Anikó; Sadiq, S. Kashif; Fehér, Krisztina; Kövér, Katalin, Conformational Analysis of Heparin-Analogue Pentasaccharides by Nuclear Magnetic Resonance Spectroscopy and Molecular Dynamics Simulations (2021), Under review.
 
+MD Input Data
+############################
 MD input data is contained within the tarfile: pentaMD_input.tar (8.2 Mb)
-Post-production output data is contained within the tarfile: pentaMD_output.tar (1.3 Gb)
+To untar the file: tar xvf pentaMD_input.tar
+Follow the instuctions in the README file contained in the tar file to navigate the input files. 
 
-To untar the files:
-tar xvf pentaMD_input.tar
-tar xvf pentaMD_output.tar
+Post-production output data
+############################
+Post-production output data consists of the Cremer-Pople parameters (theta, phi) for each of the five rings in each pentasaccharide as well as the inter-glycosidic linker dihedral angles (phi_gl and psi_gl) for every recorded timestep in each replica and is available in the following files and corresponding file structure in this repository:
 
-Follow the instuctions in the README file in each tar file to navigate the data. 
+output/$SYS/data/CP_$SYS_$REP.dat (18 Mb each)
+ouput/$SYS/data/GL_$SYS_$REP.dat (16 Mb each)
+
+$SYS denotes the analog number from 1 to 3 
+$REP denotes the replica number from 1 to 10
+
+CP denotes the Cremer-Pople data and the columns successively report the Q, theta and phi values for each of the rings in order from the D to H.
+GL denotes the glycosidic linker data and the columns successively report the phi and psi values for each of the linkersin order from D/E to G/H.
+
+Each file contains 200,000 rows ordered by the timepoint from star to end in each simulation with intervals of 10 ps.
 
 ########################################################################################################
 
