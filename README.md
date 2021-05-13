@@ -1,4 +1,4 @@
-# Pentasaccharide MD Simulation Repository
+# Pentasaccharide MD Simulation and Analysis Repository
 
 ########################################################################################################
  Correspondence: S. Kashif Sadiq (kashif.sadiq@embl.de)
